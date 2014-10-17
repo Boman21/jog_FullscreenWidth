@@ -39,8 +39,8 @@ class jogFullscreenWidth
 			;(function($){
 				$(function()
 				{
-					$(\'<div style="padding:6px;"><span>Edit width: <input id="jog_fullscreen_width" name="value" style="width:40px;border:1px solid #ccc;" placeholder=" 647" /></span></div>\').appendTo(\'#wp-fullscreen-buttons\');
-					$(\'#jog_fullscreen_width\').blur(function(){ $(\'#wp-content-editor-container\',\'#wp-fullscreen-title\').css("width", $(this).val()+\'px\'); });
+					$(\'<div style="padding:6px;"><span>Edit width: <input id="jog_fullscreen_width" name="value" style="width:40px;border:1px solid #ccc;" placeholder="824" /></span></div>\').appendTo(\'#wp-fullscreen-toolbar\');
+					$(\'#jog_fullscreen_width\').blur(function(){ $(\'#wp-content-editor-container,.wp-fullscreen-title\').css("width", $(this).val()+\'px\'); });
 				});	
 			}(jQuery));
 			</script>
