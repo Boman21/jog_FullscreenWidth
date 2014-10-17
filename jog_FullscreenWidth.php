@@ -1,16 +1,16 @@
 <?php
 /*
-Plugin Name: FullscreenWidth
-Plugin URI: http://www.devshare.de/wordpress/plugins/wordpress-fullscreenwidth-plugin
-Description: FullscreenWidth adds a input field to change the editarea width, next to the toolbar buttons at the fullscreen view.
+Plugin Name: jogFullscreenWidth
+Plugin URI: http://rufnex.de/en/wordpress/wordpress-jogfullscreenwidth/
+Description: jogFullscreenWidth adds a input field to change the editarea width, next to the toolbar buttons at the fullscreen view.
 Author: Johannes Gamperl
-Version: 1.0
-Author URI: http://devshare.de
+Version: 1.1
+Author URI: http://rufnex.de
 */
 
-if ( !class_exists('FullscreenWidth') ):
+if ( !class_exists('jogFullscreenWidth') ):
 
-class FullscreenWidth 
+class jogFullscreenWidth 
 {
 	/**
 	 * Setup the object
@@ -50,6 +50,6 @@ class FullscreenWidth
 
 
 
-$FullscreenWidth = new FullscreenWidth();
+$jogFullscreenWidth = new jogFullscreenWidth();
 
 endif; // class_exists
